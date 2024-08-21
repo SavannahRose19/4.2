@@ -1,0 +1,62 @@
+body 
+{
+    font-family: 'Verdana', sans-serif;
+    background-color: #e8a468;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+button 
+{
+    background-color: #ff2f00;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 50px;
+    font-family:'Verdana', sans-serif;
+}
+
+button:hover 
+{
+    background-color: #00b318;
+    transform: scale(1.05);
+}
+
+#taco 
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+#msg 
+{
+    margin-top: 20px;
+    font-size: 35px;
+    color: #666;
+    text-align: center;
+}
+
+.button-container 
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
